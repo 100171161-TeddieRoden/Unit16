@@ -1,11 +1,11 @@
-# C# Console Applications App01 to App05
+# C# Unit 16 Object Oriented Programming
 | Author | Details |
 | ---- | ---- |
-**Name**: | Student Name  |
-**Student ID**: | 12345678 |
+**Name**: | Teddie Roden  |
+**Student ID**: | 100171161 |
 **Course:** | Computing |
 **Module**: | CO453     |
-**Started**: | January 2021 |    
+**Started**: | January 2022 |    
 
 1. App01: Distance Converter
 2. App02: BMI Calculator
