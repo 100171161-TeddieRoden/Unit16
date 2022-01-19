@@ -8,6 +8,6 @@
     /// </author>
     public class DistanceConverter
     {
-        ffddfdf
+        
     }
 }
