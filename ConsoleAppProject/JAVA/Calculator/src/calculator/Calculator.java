@@ -1,21 +1,27 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package calculator;
 
 /**
- * 
+ * Calculations
  * @author 100171161
  */
-public class Calculator {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Hello World!");
-    }
+public class Calculator {
+    String name;
     
+    public int add(int x,int y){
+        return x+y;
+    }
+    public int subtract(int x,int y){
+        return x-y;
+    }
+    public int multiply(int x,int y){
+        return x*y;
+    }
+    public int divide(int x,int y){
+        return x/y;
+    }
+    public int modulus(int x,int y){
+        return x%y; //percent sign, finds remainders, e.g 5/4=1 1remainder
+    }
+
 }
