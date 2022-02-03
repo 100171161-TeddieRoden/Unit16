@@ -14,6 +14,6 @@ public class mainClass {
             c2.name = "Calc2";
             
             System.out.println(c1.name +" calculated "+ c1.add(3,4));
-            System.out.println(c2.name + " calculator " + c2.modulus(29,5));
+            System.out.println(c2.name + " calculated " + c2.modulus(29,5));
     }
 }
