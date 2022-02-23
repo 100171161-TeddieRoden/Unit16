@@ -27,22 +27,28 @@ public class Calculator extends javax.swing.JFrame {
                 ans= num + Double.parseDouble(jTextField1.getText());
                 jTextField1.setText(Double.toString(ans));
                 break;
-        }
-        {
+        
+        
             case 2:
                 ans= num - Double.parseDouble(jTextField1.getText());
                 jTextField1.setText(Double.toString(ans));
                 break;
-        }
-        {
+        
+        
             case 3:
                 ans= num * Double.parseDouble(jTextField1.getText());
                 jTextField1.setText(Double.toString(ans));
                 break;
-        }
-        {
+        
+        
             case 4:
                 ans= num / Double.parseDouble(jTextField1.getText());
+                jTextField1.setText(Double.toString(ans));
+                break;
+        
+        
+            case 5:
+                ans= num % Double.parseDouble(jTextField1.getText());
                 jTextField1.setText(Double.toString(ans));
                 break;
         }
@@ -475,7 +481,10 @@ public class Calculator extends javax.swing.JFrame {
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
-        jTextField1.setText(jTextField1.getText() + "%");
+        num = Double.parseDouble(jTextField1.getText());
+        calculation =5;
+        jTextField1.setText("");
+        jLabel1.setText(num + "%");
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
@@ -493,17 +502,26 @@ public class Calculator extends javax.swing.JFrame {
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         // TODO add your handling code here:
-        jTextField1.setText(jTextField1.getText() + "-");
+        num = Double.parseDouble(jTextField1.getText());
+        calculation =2;
+        jTextField1.setText("");
+        jLabel1.setText(num + "-");
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
-        jTextField1.setText(jTextField1.getText() + "*");
+        num = Double.parseDouble(jTextField1.getText());
+        calculation =3;
+        jTextField1.setText("");
+        jLabel1.setText(num + "*");
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
-        jTextField1.setText(jTextField1.getText() + "/");
+        num = Double.parseDouble(jTextField1.getText());
+        calculation =4;
+        jTextField1.setText("");
+        jLabel1.setText(num + "/");
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
