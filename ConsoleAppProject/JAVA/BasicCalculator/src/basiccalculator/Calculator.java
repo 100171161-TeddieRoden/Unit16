@@ -308,6 +308,11 @@ public class Calculator extends javax.swing.JFrame {
 
         jButton18.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton18.setText("0");
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
 
         jButton19.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton19.setText(".");
@@ -547,6 +552,12 @@ public class Calculator extends javax.swing.JFrame {
             jTextField1.setText(store);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        // TODO add your handling code here:
+        jTextField1.setText(jTextField1.getText() + "0");
+        
+    }//GEN-LAST:event_jButton18ActionPerformed
 
     /**
      * @param args the command line arguments
