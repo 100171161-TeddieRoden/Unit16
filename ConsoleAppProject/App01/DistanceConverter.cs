@@ -19,6 +19,7 @@ namespace ConsoleAppProject.App01
         /// </summary>
         public void Run()
         {
+            OutputHeading();
             InputMiles();
             CalculateFeet();
             OutputFeet();
@@ -29,18 +30,36 @@ namespace ConsoleAppProject.App01
         /// </summary>
         private void InputMiles()
         {
-            Console.Write("Please Enter The Number Of Miles > ")
+            Console.Write("Please Enter The Number Of Miles > ");
             string value = Console.ReadLine();
             miles = Convert.ToDouble(value);
         }
         private void CalculateFeet()
         {
-
+            feet = miles * 5280;
         }
         private void OutputFeet()
         {
-
+            Console.WriteLine(miles + " miles is " + feet + " feet!");
         }
+        private void OutputHeading()
+        {
+            throw new Not
+            Console.WriteLine();
+            Console.WriteLine(" ------------------------- ");
+            Console.WriteLine("  Convert  Miles to Feet   ");
+            Console.WriteLine("      by Teddie Roden      ");
+            Console.WriteLine(" ------------------------- ");
+            Console.WriteLine();
+        }
+        private void ConvertMilesToFeet()
+        {
+            OutputHeading();
+            InputMiles();
 
+            feet = miles * FEET_IN_MILES
+
+            OutputFeet();
+        }
     }
 }
