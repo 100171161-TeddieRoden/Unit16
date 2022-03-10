@@ -35,7 +35,7 @@ namespace ConsoleAppProject.App01
         }
         private void CalculateFeet()
         {
-
+            
         }
         private void OutputFeet()
         {
