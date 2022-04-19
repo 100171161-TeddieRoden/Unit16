@@ -8,6 +8,6 @@ package mobiles;
  *
  * @author 100171161
  */
-public class Xiaomi {
+public class Xiaomi extends android{
     
 }

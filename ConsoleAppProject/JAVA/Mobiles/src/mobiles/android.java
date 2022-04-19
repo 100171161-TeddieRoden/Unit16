@@ -10,6 +10,7 @@ package mobiles;
  */
 public class android extends Mobiles{
     String android_version;     
+    
     public String getandroid_version(){
         return android_version;
     }

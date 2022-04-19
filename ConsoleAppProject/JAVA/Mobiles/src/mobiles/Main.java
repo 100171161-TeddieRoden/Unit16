@@ -15,10 +15,13 @@ public class Main {
      */
     public static void main(String[] args) {
     Samsung s = new Samsung();
+    Nokia n = new Nokia();
+    Xiaomi x = new Xiaomi();
     s.setColor("Black");
     s.setCost(30000);
     s.setRAM("4GB");
     s.setandroid_version("Android Pie");
+    
         System.out.println("Samsung mobile details");
         System.out.println("Cost: "+s.getCost());
         System.out.println("Color: "+s.getColor());

@@ -8,6 +8,6 @@ package mobiles;
  *
  * @author 100171161
  */
-public class Nokia {
+public class Nokia extends android{
     
 }
